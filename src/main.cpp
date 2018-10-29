@@ -119,7 +119,7 @@ struct Alarm_clock
     int Alarm_clock_state = 0;
     int set_click = 0;
     int Beep_state = 0;
-    int alarm_work=1;
+    int alarm_work = 1;
     /* data */
 } Alarm_clock;
 
@@ -723,7 +723,6 @@ void Set_Clock()
         Timer.timersetd = millis();
         Alarm_clock.Beep_state = 0;
         Alarm_clock.alarm_work = 0;
-
     }
 
     //------Clock_count_down.alam
